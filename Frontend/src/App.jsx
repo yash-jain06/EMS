@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/update/:id/:name/:/:age/:email/:dob/:doj/:designation/:department/:contact/:salary/" element={<U />} />
+        <Route path="/update/:id/:name/:age/:email/:dob/:doj/:designation/:department/:contact/:salary/" element={<U />} />
         <Route
           path="/"
           element={
