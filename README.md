@@ -31,6 +31,7 @@ DEPENDENCIES: axios: npm i axios,
 : Postgres: npm i pg,
 : express: npm i express
 
+
 ##############DATABASE###############
 CREATE DATABASE IN POSTGRES WHERE USE PORT ACCORDING TO YOUR DATABASE AND THE NAME OF THE DATABASE IS "employee" and the table name is "employers"
  QUERY TO CREATE DATABASE: CREATE database employee;
@@ -46,3 +47,4 @@ CREATE DATABASE IN POSTGRES WHERE USE PORT ACCORDING TO YOUR DATABASE AND THE NA
     contact BIGINT,
     salary INT
 );
+
