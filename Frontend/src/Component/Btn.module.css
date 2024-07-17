@@ -1,0 +1,71 @@
+.btn{
+  
+  position: absolute;
+  bottom: 790px;
+  left: 246px;
+  top: 152px;
+  width: 100px;
+  height: 50px;
+  margin: 0 5px;
+  font-size: 23px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 900;
+  color:white;
+  background-color: green;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.btn {
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  background-color: #333;
+  color: #fff;
+  border-color: #555;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+}
+
+.form-error {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #222; 
+  color: #fff;
+}
+
+.modal-title {
+  color: #007bff; 
+}
+
+.modal-footer {
+  background-color: #333; 
+}
+
+.close {
+  color: #fff; 
+}
