@@ -9,7 +9,7 @@ DEPENDENCIES: axios: npm i axios,
 : yup: npm i yup,
 : react: npm create vite@latest,
 :react-bootstrap:npm i react-bootstrap bootstrap,
-:node: npm i -y
+:node: npm init -y
 : express validator: npm i express-validator,
-: Postgres: npm init pg,
+: Postgres: npm i pg,
 : express: npm i express
