@@ -4,17 +4,7 @@ IF YOU FACE ERROR: VITE NOT FOUND, SO PLEASE RUN THIS COMMAND IN THE TERMINAL: n
 
 WHENEVER YOU UPDATE AND ADD, AFTER PERFORMING THESE ACTIONS YOU NEED TO REFRESH THE PAGE MANUALLY TO SEE THE CHANGES.
 
-IF THE UPDATE BUTTON DOES NOT WORK PLEASE USE THIS FUNCTION IN CONTROLLER.JS:
-1)FIRST REMOVE THE FUNCTION WHICH IS ON LINE 96 TO 102.
-2)AND USE THIS FUNCTION :
-const formatDate = (date) => {
-  if (date) {
-    const localDate = new Date(date);
-    localDate.setMinutes(localDate.getMinutes() - localDate.getTimezoneOffset()); // Adjust to local time
-    return localDate.toISOString().split('T')[0]; // Split to get YYYY-MM-DD part
-  }
-  return null;
-};
+
 
 
 RUN COMMAND FOR BOTH NODE AND REACT: npm run dev
