@@ -13,3 +13,5 @@ DEPENDENCIES: axios: npm i axios,
 : express validator: npm i express-validator,
 : Postgres: npm i pg,
 : express: npm i express
+
+WHENEVER YOU UPDATE AND ADD, AFTER PERFORMING THESE ACTIONS YOU NEED TO REFRESH THE PAGE MANUALLY TO SEE THE CHANGES.
